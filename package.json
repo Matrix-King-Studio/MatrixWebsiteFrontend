@@ -1,0 +1,26 @@
+{
+  "name": "matrixwebsitefrontend",
+  "version": "1.0.0",
+  "description": "```\r npm install\r ```",
+  "main": "babel.config.js",
+  "dependencies": {
+    "asap": "^2.0.6",
+    "dezalgo": "^1.0.3",
+    "hexoid": "^1.0.0",
+    "formidable": "^2.0.1",
+    "once": "^1.4.0",
+    "qs": "^6.9.3",
+    "wrappy": "^1.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitcode.net/matrixstudio/frontend/matrixwebsitefrontend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
