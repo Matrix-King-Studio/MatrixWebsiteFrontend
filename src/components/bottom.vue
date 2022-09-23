@@ -13,7 +13,7 @@
             <!-- <div>ADDRESS</div>-->
             <!-- <div>天津市滨海新区第十三大街天津科大学</div>-->
             <div>NAME</div>
-            <div>Wen Wang</div>
+            <div>Zhi Luo</div>
           </div>
         </div>
 
@@ -21,14 +21,14 @@
           <img src="../assets/bottom/email.png" alt="" />
           <div>
             <div>E-MAIL</div>
-            <div>seacode2024@126.com</div>
+            <div>seacode2025@126.com</div>
           </div>
         </div>
         <div>
           <img src="../assets/bottom/tel.png" alt="">
           <div>
             <div>TEL</div>
-            <div>13996335392</div>
+            <div>13883653685</div>
           </div>
         </div>
 

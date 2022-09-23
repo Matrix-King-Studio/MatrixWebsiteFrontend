@@ -6,6 +6,7 @@
     <el-dialog title="微信登录" :visible.sync="wechatQcodeShow">
       <div><div id="wx_login_container"></div></div>
     </el-dialog>
+
     <div class="popLogin" v-if="loginShow">
       <!-- 登录 -->
       <div class="Login same" v-if="!isregister">
@@ -19,12 +20,14 @@
         <div class="off" @click="loginShow = false">X</div>
         <div class="change" @click="isregister = true">注册账号</div>
         <div
-            class="change"
-            @click="wechatQcodeShow = true"
-            style="right: 20px; left: auto; cursor: pointer; color: #158742">
+          class="change"
+          @click="wechatQcodeShow = true"
+          style="right: 20px; left: auto; cursor: pointer; color: #158742"
+        >
           微信登录
         </div>
       </div>
+
       <!-- 注册 -->
       <div class="Register same" v-if="isregister">
         <div>
@@ -34,8 +37,9 @@
           <span>邮箱</span
           ><input type="text" v-model="Registerinfo.email" @blur="checkemail" />
           <button
-              :class="{ sendCode: true, sendok: issend, sendno: !issend }"
-              @click="sendCode($event)">
+            :class="{ sendCode: true, sendok: issend, sendno: !issend }"
+            @click="sendCode($event)"
+          >
             发送验证码
           </button>
         </div>
@@ -54,14 +58,17 @@
           注册
         </div>
         <div
-            class="change"
-            @click="isregister = false"
-            style="left: 20px; bottom: 0px">
+          class="change"
+          @click="isregister = false"
+          style="left: 20px; bottom: 0px"
+        >
           登录
         </div>
+
         <div class="off" @click="loginShow = false">X</div>
       </div>
     </div>
+
     <bottom></bottom>
   </div>
 </template>
@@ -222,7 +229,7 @@ export default {
       if (e == 1) {
         this.loginShow = true;
       } else if (e == 2) {
-        this.wechatQcodeShow = true
+        this.wechatQcodeShow=true
       } else {
         this.islogin = 0;
       }
