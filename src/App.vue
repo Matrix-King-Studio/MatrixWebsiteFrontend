@@ -6,7 +6,6 @@
     <el-dialog title="微信登录" :visible.sync="wechatQcodeShow">
       <div><div id="wx_login_container"></div></div>
     </el-dialog>
-
     <div class="popLogin" v-if="loginShow">
       <!-- 登录 -->
       <div class="Login same" v-if="!isregister">
@@ -120,7 +119,6 @@ export default {
     },
   },
   mounted() {
-    console.log(456456);
     // setTimeout(() => {
     //   this.get_wx_qrcode();
     // }, 1000);
@@ -339,7 +337,7 @@ export default {
   // input样式
   input {
     cursor: text;
-    -webkit-appearance: none;
+    appearance: none;
     background-color: #fff;
     background-image: none;
     border-radius: 4px;

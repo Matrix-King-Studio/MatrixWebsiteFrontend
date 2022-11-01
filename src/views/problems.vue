@@ -321,7 +321,7 @@ export default {
 </script>
 
 <style lang="less" scoped>
-@import url("http://www.ztxztx.top:10086/icon.css");
+// @import url("http://www.ztxztx.top:10086/icon.css");
 // 日历选择
 .is-selected {
   color: #1989fa;
