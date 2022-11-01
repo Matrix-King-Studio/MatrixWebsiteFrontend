@@ -229,7 +229,7 @@ export default {
       if (e == 1) {
         this.loginShow = true;
       } else if (e == 2) {
-        this.wechatQcodeShow=true
+        this.wechatQcodeShow = true;
       } else {
         this.islogin = 0;
       }
