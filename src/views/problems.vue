@@ -489,7 +489,7 @@ li {
         font-family: Source Han Sans CN;
         font-weight: bold;
         & > div {
-          width: 50%;
+          // width: 50%;
           &:first-child {
             display: flex;
             align-items: center;
