@@ -1,17 +1,15 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import home from '../views/Home.vue'
-import {homeChild} from './homeChild'
 import project from '../views/project.vue'
 import studyRoute from '../views/studyRoute.vue'
-import news from '../views/news.vue'
+import news from '../views/newsDetail.vue'
 import recruit from '../views/recruit.vue'
 import msgboard from '../views/msgboard.vue'
 import problems from '../views/problems.vue'
 Vue.use(VueRouter)
 
-const routes = [
-  {
+const routes = [{
     path: "*",
     redirect: "/home"
   },
@@ -22,59 +20,54 @@ const routes = [
 
   {
     path: "/studyRoute",
-    component:studyRoute,
-    name:'studyRoute'
+    component: studyRoute,
+    name: 'studyRoute'
   },
   {
     path: "/msgboard",
-    component:msgboard,
-    name:'msgboard'
+    component: msgboard,
+    name: 'msgboard'
   },
   {
     path: "/project",
-    component:project,
-    name:'project'
+    component: project,
+    name: 'project'
   },
   {
     path: "/recruit",
-    component:recruit,
-    name:'recruit'
+    component: recruit,
+    name: 'recruit'
   },
   {
     path: "/problems",
-    component:problems,
-    name:'problems'
+    component: problems,
+    name: 'problems'
   },
   {
-    path:'/news:id',
-    component:news,
-    name:'news'
+    path: '/news:id',
+    component: news,
+    name: 'news'
   },
   {
     path: '/home',
     name: 'home',
-    component: home,
-    children:[
-      ...homeChild
-    ]
+    component: home
   },
 ]
 const router = new VueRouter({
   routes,
-
 })
-// 滚动动画
+// 切换页面滚动到最上方
 router.beforeEach((to, from, next) => {
-  let scroll=setInterval(()=>{
-    let scrollTop=document.documentElement.scrollTop
-    let speed = Math.floor(scrollTop / 12)<200?200:Math.floor(scrollTop / 12);
-    if(scrollTop<=0){
+  let scroll = setInterval(() => {
+    let scrollTop = document.documentElement.scrollTop
+    let speed = Math.floor(scrollTop / 12) < 200 ? 200 : Math.floor(scrollTop / 12);
+    if (scrollTop <= 0) {
       clearInterval(scroll)
     }
-    document.documentElement.scrollTop-=speed
+    document.documentElement.scrollTop -= speed
+  }, 30)
 
-  },30)
-  
   next()
 })
 export default router

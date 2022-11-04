@@ -321,7 +321,7 @@ export default {
 </script>
 
 <style lang="less" scoped>
-@import url("http://www.ztxztx.top:10086/icon.css");
+// @import url("http://www.ztxztx.top:10086/icon.css");
 // 日历选择
 .is-selected {
   color: #1989fa;
@@ -489,7 +489,7 @@ li {
         font-family: Source Han Sans CN;
         font-weight: bold;
         & > div {
-          width: 50%;
+          // width: 50%;
           &:first-child {
             display: flex;
             align-items: center;

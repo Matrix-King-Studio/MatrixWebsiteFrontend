@@ -1,19 +1,27 @@
-# matrixweb
+# 工作室官网前端页面
 
-## Project setup
-```
-npm install
-```
+目前重构中...
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+### 已有模块
 
-### Compiles and minifies for production
-```
-npm run build
-```
+首页 —已完成
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+弹出窗 — 待重构
+
+学习路线 —已完成
+
+项目广场 —后台管理系统待开发
+
+每日一题 —已完成
+
+### 计划开发
+
+重构弹出窗模块
+
+留言板重新开发
+
+英雄墙
+
+重新开发管理系统
+
+封装顶部导航动画
