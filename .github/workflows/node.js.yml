@@ -25,7 +25,7 @@ jobs:
     - name: deploy
       uses: easingthemes/ssh-deploy@v2.1.5
       env:
-          SSH_PRIVATE_KEY: ${{ secrets.MatrixServer001 }}
+          SSH_PRIVATE_KEY: ${{ secrets.MATRIXSERVER001 }}
           SOURCE: dist/*
           REMOTE_HOST: '121.37.67.75'
           REMOTE_USER: root
