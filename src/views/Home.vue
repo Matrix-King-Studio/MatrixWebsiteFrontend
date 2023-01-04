@@ -9,9 +9,6 @@
     <div ref="floatImg">
       <FloatImg></FloatImg>
     </div>
-    <div ref="news">
-      <News></News>
-    </div>
   </div>
 </template>
 
