@@ -13,7 +13,7 @@
             <!-- <div>ADDRESS</div>-->
             <!-- <div>天津市滨海新区第十三大街天津科大学</div>-->
             <div>NAME</div>
-            <div>Yuxia Huang</div>
+            <div>Ji Luo</div>
           </div>
         </div>
 
@@ -21,7 +21,7 @@
           <img src="../assets/bottom/email.png" alt="" />
           <div>
             <div>E-MAIL</div>
-            <div>seatrader2022@126.com</div>
+            <div>seaman2026@126.com</div>
           </div>
         </div>
         <div>
