@@ -28,7 +28,7 @@
           <img src="../assets/bottom/tel.png" alt="">
           <div>
             <div>TEL</div>
-            <div>13983795259</div>
+            <div>18926467061</div>
           </div>
         </div>
 
