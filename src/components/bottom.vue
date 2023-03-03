@@ -34,6 +34,7 @@
 
         <div style="transform: translateX(3px);">
           <div>
+            <img src="../assets/bottom/tel.png" alt="">
             <div>网站备案号</div>
             <div>浙ICP备2022020574号-1</div>
           </div>
