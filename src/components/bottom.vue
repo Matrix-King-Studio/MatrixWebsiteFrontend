@@ -13,7 +13,7 @@
             <!-- <div>ADDRESS</div>-->
             <!-- <div>天津市滨海新区第十三大街天津科大学</div>-->
             <div>NAME</div>
-            <div>Ji Luo</div>
+            <div>刘兆峰</div>
           </div>
         </div>
 
@@ -21,14 +21,14 @@
           <img src="../assets/bottom/email.png" alt="" />
           <div>
             <div>E-MAIL</div>
-            <div>seaman2026@126.com</div>
+            <div>matrix_studio_0@163.com</div>
           </div>
         </div>
         <div>
           <img src="../assets/bottom/tel.png" alt="">
           <div>
             <div>TEL</div>
-            <div>18926467061</div>
+            <div>18812649207</div>
           </div>
         </div>
 
